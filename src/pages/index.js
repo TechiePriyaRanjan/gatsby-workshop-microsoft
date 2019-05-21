@@ -4,22 +4,21 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import Navigation from "../components/navigation"
+import TopNavigation from "../components/topnavigation"
 import Content from "../components/content"
 
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Navigation />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <TopNavigation />
+    <h1>Hey there 🖐!!</h1>
+    <h1>I'm Priya Ranjan...</h1>
+    <p>A young passionate full-stack <br/> developer👨‍💻 &amp; designer 🎨;</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
 
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 

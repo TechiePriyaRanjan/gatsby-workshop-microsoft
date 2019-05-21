@@ -5,7 +5,7 @@ import Link from 'gatsby-link';
 
 // }
 
-const Navigation = () => {
+const Footer = () => {
     return <nav>
         <ul>
             <li><Link>home</Link></li>
